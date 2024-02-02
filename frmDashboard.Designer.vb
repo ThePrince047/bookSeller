@@ -31,10 +31,10 @@ Partial Class frmDashboard
         Dim CustomizableEdges4 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges9 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges10 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges11 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges12 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges7 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges8 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges11 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges12 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Guna2Button1 = New Guna.UI2.WinForms.Guna2Button()
         pnlTop = New Guna.UI2.WinForms.Guna2Panel()
         Guna2PictureBox2 = New Guna.UI2.WinForms.Guna2PictureBox()
@@ -42,8 +42,10 @@ Partial Class frmDashboard
         NightControlBox1 = New ReaLTaiizor.Controls.NightControlBox()
         Guna2DragControl1 = New Guna.UI2.WinForms.Guna2DragControl(components)
         pnlSide = New Guna.UI2.WinForms.Guna2Panel()
-        pnlMain = New Guna.UI2.WinForms.Guna2Panel()
+        Label3 = New Label()
+        Label2 = New Label()
         Guna2Button2 = New Guna.UI2.WinForms.Guna2Button()
+        pnlMain = New Guna.UI2.WinForms.Guna2Panel()
         pnlTop.SuspendLayout()
         CType(Guna2PictureBox2, ComponentModel.ISupportInitialize).BeginInit()
         pnlSide.SuspendLayout()
@@ -137,6 +139,8 @@ Partial Class frmDashboard
         ' pnlSide
         ' 
         pnlSide.BackColor = Color.FromArgb(CByte(221), CByte(161), CByte(94))
+        pnlSide.Controls.Add(Label3)
+        pnlSide.Controls.Add(Label2)
         pnlSide.Controls.Add(Guna2Button2)
         pnlSide.Controls.Add(Guna2Button1)
         pnlSide.CustomizableEdges = CustomizableEdges9
@@ -147,15 +151,27 @@ Partial Class frmDashboard
         pnlSide.Size = New Size(250, 622)
         pnlSide.TabIndex = 2
         ' 
-        ' pnlMain
+        ' Label3
         ' 
-        pnlMain.CustomizableEdges = CustomizableEdges11
-        pnlMain.Dock = DockStyle.Fill
-        pnlMain.Location = New Point(250, 40)
-        pnlMain.Name = "pnlMain"
-        pnlMain.ShadowDecoration.CustomizableEdges = CustomizableEdges12
-        pnlMain.Size = New Size(854, 622)
-        pnlMain.TabIndex = 3
+        Label3.AutoSize = True
+        Label3.Font = New Font("Jellee Bold", 9F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
+        Label3.ForeColor = Color.White
+        Label3.Location = New Point(34, 595)
+        Label3.Name = "Label3"
+        Label3.Size = New Size(181, 18)
+        Label3.TabIndex = 3
+        Label3.Text = "@ Developed By Prince"
+        ' 
+        ' Label2
+        ' 
+        Label2.AutoSize = True
+        Label2.Font = New Font("Jellee Bold", 10.2F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
+        Label2.ForeColor = SystemColors.ButtonFace
+        Label2.Location = New Point(93, 574)
+        Label2.Name = "Label2"
+        Label2.Size = New Size(52, 21)
+        Label2.TabIndex = 2
+        Label2.Text = "V 2.0"
         ' 
         ' Guna2Button2
         ' 
@@ -175,6 +191,16 @@ Partial Class frmDashboard
         Guna2Button2.TabIndex = 1
         Guna2Button2.Text = "panelTest"
         ' 
+        ' pnlMain
+        ' 
+        pnlMain.CustomizableEdges = CustomizableEdges11
+        pnlMain.Dock = DockStyle.Fill
+        pnlMain.Location = New Point(250, 40)
+        pnlMain.Name = "pnlMain"
+        pnlMain.ShadowDecoration.CustomizableEdges = CustomizableEdges12
+        pnlMain.Size = New Size(854, 622)
+        pnlMain.TabIndex = 3
+        ' 
         ' frmDashboard
         ' 
         AutoScaleDimensions = New SizeF(8F, 20F)
@@ -192,6 +218,7 @@ Partial Class frmDashboard
         pnlTop.PerformLayout()
         CType(Guna2PictureBox2, ComponentModel.ISupportInitialize).EndInit()
         pnlSide.ResumeLayout(False)
+        pnlSide.PerformLayout()
         ResumeLayout(False)
     End Sub
 
@@ -202,6 +229,8 @@ Partial Class frmDashboard
     Friend WithEvents Guna2DragControl1 As Guna.UI2.WinForms.Guna2DragControl
     Friend WithEvents Guna2PictureBox2 As Guna.UI2.WinForms.Guna2PictureBox
     Friend WithEvents pnlSide As Guna.UI2.WinForms.Guna2Panel
-    Friend WithEvents pnlMain As Guna.UI2.WinForms.Guna2Panel
     Friend WithEvents Guna2Button2 As Guna.UI2.WinForms.Guna2Button
+    Friend WithEvents Label3 As Label
+    Friend WithEvents Label2 As Label
+    Friend WithEvents pnlMain As Guna.UI2.WinForms.Guna2Panel
 End Class

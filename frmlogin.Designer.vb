@@ -35,8 +35,6 @@ Partial Class frmlogin
         Dim CustomizableEdges10 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges11 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges12 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges13 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges14 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Guna2PictureBox1 = New Guna.UI2.WinForms.Guna2PictureBox()
         Guna2TextBox1 = New Guna.UI2.WinForms.Guna2TextBox()
         Guna2TextBox2 = New Guna.UI2.WinForms.Guna2TextBox()
@@ -51,12 +49,9 @@ Partial Class frmlogin
         Label4 = New Label()
         Label5 = New Label()
         Guna2Elipse1 = New Guna.UI2.WinForms.Guna2Elipse(components)
-        pnlTop = New Guna.UI2.WinForms.Guna2Panel()
         NightControlBox1 = New ReaLTaiizor.Controls.NightControlBox()
-        Guna2DragControl1 = New Guna.UI2.WinForms.Guna2DragControl(components)
         CType(Guna2PictureBox1, ComponentModel.ISupportInitialize).BeginInit()
         CType(Guna2PictureBox2, ComponentModel.ISupportInitialize).BeginInit()
-        pnlTop.SuspendLayout()
         SuspendLayout()
         ' 
         ' Guna2PictureBox1
@@ -66,10 +61,10 @@ Partial Class frmlogin
         Guna2PictureBox1.CustomizableEdges = CustomizableEdges1
         Guna2PictureBox1.FillColor = Color.FromArgb(CByte(254), CByte(250), CByte(224))
         Guna2PictureBox1.ImageRotate = 0F
-        Guna2PictureBox1.Location = New Point(466, 37)
+        Guna2PictureBox1.Location = New Point(464, 0)
         Guna2PictureBox1.Name = "Guna2PictureBox1"
         Guna2PictureBox1.ShadowDecoration.CustomizableEdges = CustomizableEdges2
-        Guna2PictureBox1.Size = New Size(465, 585)
+        Guna2PictureBox1.Size = New Size(420, 570)
         Guna2PictureBox1.TabIndex = 0
         Guna2PictureBox1.TabStop = False
         ' 
@@ -87,7 +82,7 @@ Partial Class frmlogin
         Guna2TextBox1.Font = New Font("Jellee Bold", 9F, FontStyle.Bold)
         Guna2TextBox1.ForeColor = Color.FromArgb(CByte(40), CByte(54), CByte(24))
         Guna2TextBox1.HoverState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
-        Guna2TextBox1.Location = New Point(511, 224)
+        Guna2TextBox1.Location = New Point(484, 186)
         Guna2TextBox1.Margin = New Padding(5, 4, 5, 4)
         Guna2TextBox1.Name = "Guna2TextBox1"
         Guna2TextBox1.PasswordChar = ChrW(0)
@@ -112,7 +107,7 @@ Partial Class frmlogin
         Guna2TextBox2.Font = New Font("Jellee Bold", 9F)
         Guna2TextBox2.ForeColor = Color.FromArgb(CByte(96), CByte(108), CByte(56))
         Guna2TextBox2.HoverState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
-        Guna2TextBox2.Location = New Point(511, 299)
+        Guna2TextBox2.Location = New Point(484, 263)
         Guna2TextBox2.Margin = New Padding(5, 4, 5, 4)
         Guna2TextBox2.Name = "Guna2TextBox2"
         Guna2TextBox2.PasswordChar = "*"c
@@ -129,7 +124,7 @@ Partial Class frmlogin
         Label1.BackColor = Color.FromArgb(CByte(254), CByte(250), CByte(224))
         Label1.Font = New Font("Jellee Bold", 24F, FontStyle.Bold)
         Label1.ForeColor = Color.FromArgb(CByte(40), CByte(54), CByte(24))
-        Label1.Location = New Point(601, 81)
+        Label1.Location = New Point(596, 56)
         Label1.Name = "Label1"
         Label1.Size = New Size(144, 49)
         Label1.TabIndex = 4
@@ -153,7 +148,7 @@ Partial Class frmlogin
         loginSubmitBtn.HoverState.BorderColor = Color.FromArgb(CByte(188), CByte(108), CByte(37))
         loginSubmitBtn.HoverState.FillColor = Color.FromArgb(CByte(221), CByte(161), CByte(94))
         loginSubmitBtn.HoverState.Font = New Font("Jellee Bold", 16.2F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
-        loginSubmitBtn.Location = New Point(592, 404)
+        loginSubmitBtn.Location = New Point(581, 380)
         loginSubmitBtn.Name = "loginSubmitBtn"
         loginSubmitBtn.ShadowDecoration.CustomizableEdges = CustomizableEdges8
         loginSubmitBtn.Size = New Size(174, 69)
@@ -166,8 +161,8 @@ Partial Class frmlogin
         forgotPassword.BackColor = Color.FromArgb(CByte(254), CByte(250), CByte(224))
         forgotPassword.Cursor = Cursors.Hand
         forgotPassword.Font = New Font("Jellee Bold", 9F)
-        forgotPassword.ForeColor = Color.DarkGray
-        forgotPassword.Location = New Point(714, 361)
+        forgotPassword.ForeColor = Color.FromArgb(CByte(96), CByte(108), CByte(56))
+        forgotPassword.Location = New Point(695, 327)
         forgotPassword.Name = "forgotPassword"
         forgotPassword.Size = New Size(147, 18)
         forgotPassword.TabIndex = 6
@@ -178,8 +173,8 @@ Partial Class frmlogin
         Label2.AutoSize = True
         Label2.BackColor = Color.FromArgb(CByte(254), CByte(250), CByte(224))
         Label2.Font = New Font("Jellee Bold", 10.8F, FontStyle.Bold)
-        Label2.ForeColor = Color.DarkGray
-        Label2.Location = New Point(620, 516)
+        Label2.ForeColor = Color.FromArgb(CByte(96), CByte(108), CByte(56))
+        Label2.Location = New Point(611, 473)
         Label2.Name = "Label2"
         Label2.Size = New Size(114, 22)
         Label2.TabIndex = 7
@@ -192,7 +187,7 @@ Partial Class frmlogin
         signuptxt.Cursor = Cursors.Hand
         signuptxt.Font = New Font("Jellee Bold", 16.2F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
         signuptxt.ForeColor = Color.FromArgb(CByte(40), CByte(54), CByte(24))
-        signuptxt.Location = New Point(611, 559)
+        signuptxt.Location = New Point(602, 515)
         signuptxt.Name = "signuptxt"
         signuptxt.Size = New Size(123, 34)
         signuptxt.TabIndex = 8
@@ -202,14 +197,15 @@ Partial Class frmlogin
         ' 
         Guna2PictureBox2.BackColor = Color.FromArgb(CByte(188), CByte(108), CByte(37))
         Guna2PictureBox2.CustomizableEdges = CustomizableEdges9
+        Guna2PictureBox2.ErrorImage = Nothing
         Guna2PictureBox2.FillColor = Color.FromArgb(CByte(188), CByte(108), CByte(37))
-        Guna2PictureBox2.Image = My.Resources.Resources.book
+        Guna2PictureBox2.Image = My.Resources.Resources.bookanim
         Guna2PictureBox2.ImageRotate = 0F
-        Guna2PictureBox2.Location = New Point(12, 119)
+        Guna2PictureBox2.Location = New Point(12, 76)
         Guna2PictureBox2.Name = "Guna2PictureBox2"
         Guna2PictureBox2.ShadowDecoration.CustomizableEdges = CustomizableEdges10
         Guna2PictureBox2.Size = New Size(417, 419)
-        Guna2PictureBox2.SizeMode = PictureBoxSizeMode.StretchImage
+        Guna2PictureBox2.SizeMode = PictureBoxSizeMode.Zoom
         Guna2PictureBox2.TabIndex = 9
         Guna2PictureBox2.TabStop = False
         ' 
@@ -223,7 +219,7 @@ Partial Class frmlogin
         loginAdminRadioBtn.Cursor = Cursors.Hand
         loginAdminRadioBtn.Font = New Font("Jellee Bold", 9F, FontStyle.Bold)
         loginAdminRadioBtn.ForeColor = Color.White
-        loginAdminRadioBtn.Location = New Point(561, 163)
+        loginAdminRadioBtn.Location = New Point(550, 135)
         loginAdminRadioBtn.Name = "loginAdminRadioBtn"
         loginAdminRadioBtn.ShadowDecoration.CustomizableEdges = CustomizableEdges11
         loginAdminRadioBtn.Size = New Size(25, 25)
@@ -244,7 +240,7 @@ Partial Class frmlogin
         loginUserRadioBtn.Cursor = Cursors.Hand
         loginUserRadioBtn.Font = New Font("Jellee Bold", 9F, FontStyle.Bold)
         loginUserRadioBtn.ForeColor = Color.White
-        loginUserRadioBtn.Location = New Point(683, 163)
+        loginUserRadioBtn.Location = New Point(682, 135)
         loginUserRadioBtn.Name = "loginUserRadioBtn"
         loginUserRadioBtn.ShadowDecoration.CustomizableEdges = CustomizableEdges12
         loginUserRadioBtn.Size = New Size(25, 25)
@@ -260,8 +256,8 @@ Partial Class frmlogin
         Label4.AutoSize = True
         Label4.BackColor = Color.FromArgb(CByte(254), CByte(250), CByte(224))
         Label4.Font = New Font("Jellee Bold", 10.8F, FontStyle.Bold)
-        Label4.ForeColor = Color.FromArgb(CByte(96), CByte(108), CByte(56))
-        Label4.Location = New Point(592, 166)
+        Label4.ForeColor = Color.FromArgb(CByte(40), CByte(54), CByte(24))
+        Label4.Location = New Point(581, 138)
         Label4.Name = "Label4"
         Label4.Size = New Size(69, 22)
         Label4.TabIndex = 14
@@ -272,8 +268,8 @@ Partial Class frmlogin
         Label5.AutoSize = True
         Label5.BackColor = Color.FromArgb(CByte(254), CByte(250), CByte(224))
         Label5.Font = New Font("Jellee Bold", 10.8F, FontStyle.Bold)
-        Label5.ForeColor = Color.FromArgb(CByte(96), CByte(108), CByte(56))
-        Label5.Location = New Point(714, 166)
+        Label5.ForeColor = Color.FromArgb(CByte(40), CByte(54), CByte(24))
+        Label5.Location = New Point(714, 138)
         Label5.Name = "Label5"
         Label5.Size = New Size(52, 22)
         Label5.TabIndex = 15
@@ -284,33 +280,21 @@ Partial Class frmlogin
         Guna2Elipse1.BorderRadius = 8
         Guna2Elipse1.TargetControl = Me
         ' 
-        ' pnlTop
-        ' 
-        pnlTop.BackColor = Color.FromArgb(CByte(221), CByte(161), CByte(94))
-        pnlTop.Controls.Add(NightControlBox1)
-        pnlTop.CustomizableEdges = CustomizableEdges13
-        pnlTop.Dock = DockStyle.Top
-        pnlTop.Location = New Point(0, 0)
-        pnlTop.Name = "pnlTop"
-        pnlTop.ShadowDecoration.CustomizableEdges = CustomizableEdges14
-        pnlTop.Size = New Size(910, 39)
-        pnlTop.TabIndex = 16
-        ' 
         ' NightControlBox1
         ' 
         NightControlBox1.Anchor = AnchorStyles.Top Or AnchorStyles.Right
-        NightControlBox1.BackColor = Color.Transparent
+        NightControlBox1.BackColor = Color.FromArgb(CByte(254), CByte(250), CByte(224))
         NightControlBox1.CloseHoverColor = Color.FromArgb(CByte(199), CByte(80), CByte(80))
         NightControlBox1.CloseHoverForeColor = Color.White
         NightControlBox1.DefaultLocation = True
         NightControlBox1.DisableMaximizeColor = Color.FromArgb(CByte(105), CByte(105), CByte(105))
         NightControlBox1.DisableMinimizeColor = Color.FromArgb(CByte(105), CByte(105), CByte(105))
-        NightControlBox1.EnableCloseColor = Color.FromArgb(CByte(254), CByte(250), CByte(224))
+        NightControlBox1.EnableCloseColor = Color.FromArgb(CByte(188), CByte(108), CByte(37))
         NightControlBox1.EnableMaximizeButton = False
-        NightControlBox1.EnableMaximizeColor = Color.FromArgb(CByte(254), CByte(250), CByte(224))
+        NightControlBox1.EnableMaximizeColor = Color.FromArgb(CByte(188), CByte(108), CByte(37))
         NightControlBox1.EnableMinimizeButton = True
-        NightControlBox1.EnableMinimizeColor = Color.FromArgb(CByte(254), CByte(250), CByte(224))
-        NightControlBox1.Location = New Point(771, 0)
+        NightControlBox1.EnableMinimizeColor = Color.FromArgb(CByte(188), CByte(108), CByte(37))
+        NightControlBox1.Location = New Point(728, 0)
         NightControlBox1.MaximizeHoverColor = Color.FromArgb(CByte(15), CByte(255), CByte(255), CByte(255))
         NightControlBox1.MaximizeHoverForeColor = Color.White
         NightControlBox1.MinimizeHoverColor = Color.FromArgb(CByte(15), CByte(255), CByte(255), CByte(255))
@@ -319,20 +303,14 @@ Partial Class frmlogin
         NightControlBox1.Size = New Size(139, 31)
         NightControlBox1.TabIndex = 17
         ' 
-        ' Guna2DragControl1
-        ' 
-        Guna2DragControl1.DockIndicatorTransparencyValue = 0.6R
-        Guna2DragControl1.TargetControl = pnlTop
-        Guna2DragControl1.UseTransparentDrag = True
-        ' 
         ' frmlogin
         ' 
         AutoScaleDimensions = New SizeF(8F, 20F)
         AutoScaleMode = AutoScaleMode.Font
         AutoSizeMode = AutoSizeMode.GrowAndShrink
         BackColor = Color.FromArgb(CByte(188), CByte(108), CByte(37))
-        ClientSize = New Size(910, 619)
-        Controls.Add(pnlTop)
+        ClientSize = New Size(867, 571)
+        Controls.Add(NightControlBox1)
         Controls.Add(Label5)
         Controls.Add(Label4)
         Controls.Add(loginUserRadioBtn)
@@ -354,7 +332,6 @@ Partial Class frmlogin
         StartPosition = FormStartPosition.CenterScreen
         CType(Guna2PictureBox1, ComponentModel.ISupportInitialize).EndInit()
         CType(Guna2PictureBox2, ComponentModel.ISupportInitialize).EndInit()
-        pnlTop.ResumeLayout(False)
         ResumeLayout(False)
         PerformLayout()
     End Sub
@@ -376,9 +353,7 @@ Partial Class frmlogin
     Friend WithEvents loginUserRadioBtn As Guna.UI2.WinForms.Guna2CustomRadioButton
     Friend WithEvents loginSubmitBtn As Guna.UI2.WinForms.Guna2Button
     Friend WithEvents Guna2Elipse1 As Guna.UI2.WinForms.Guna2Elipse
-    Friend WithEvents pnlTop As Guna.UI2.WinForms.Guna2Panel
     Friend WithEvents NightControlBox1 As ReaLTaiizor.Controls.NightControlBox
-    Friend WithEvents Guna2DragControl1 As Guna.UI2.WinForms.Guna2DragControl
 
 End Class
 

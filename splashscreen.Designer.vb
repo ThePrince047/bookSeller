@@ -76,13 +76,14 @@ Partial Class splashscreen
         ' Guna2PictureBox1
         ' 
         Guna2PictureBox1.CustomizableEdges = CustomizableEdges3
-        Guna2PictureBox1.Image = My.Resources.Resources.booksplash1
+        Guna2PictureBox1.ErrorImage = Nothing
+        Guna2PictureBox1.Image = My.Resources.Resources.book
         Guna2PictureBox1.ImageRotate = 0F
         Guna2PictureBox1.Location = New Point(152, 99)
         Guna2PictureBox1.Name = "Guna2PictureBox1"
         Guna2PictureBox1.ShadowDecoration.CustomizableEdges = CustomizableEdges4
         Guna2PictureBox1.Size = New Size(375, 250)
-        Guna2PictureBox1.SizeMode = PictureBoxSizeMode.StretchImage
+        Guna2PictureBox1.SizeMode = PictureBoxSizeMode.Zoom
         Guna2PictureBox1.TabIndex = 3
         Guna2PictureBox1.TabStop = False
         ' 

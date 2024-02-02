@@ -29,31 +29,43 @@ Partial Class frmDashboard
         Dim CustomizableEdges6 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges3 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges4 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges9 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges10 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges11 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges12 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges7 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges8 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Guna2Button1 = New Guna.UI2.WinForms.Guna2Button()
         pnlTop = New Guna.UI2.WinForms.Guna2Panel()
         Guna2PictureBox2 = New Guna.UI2.WinForms.Guna2PictureBox()
         Label1 = New Label()
         NightControlBox1 = New ReaLTaiizor.Controls.NightControlBox()
         Guna2DragControl1 = New Guna.UI2.WinForms.Guna2DragControl(components)
+        pnlSide = New Guna.UI2.WinForms.Guna2Panel()
+        pnlMain = New Guna.UI2.WinForms.Guna2Panel()
+        Guna2Button2 = New Guna.UI2.WinForms.Guna2Button()
         pnlTop.SuspendLayout()
         CType(Guna2PictureBox2, ComponentModel.ISupportInitialize).BeginInit()
+        pnlSide.SuspendLayout()
         SuspendLayout()
         ' 
         ' Guna2Button1
         ' 
+        Guna2Button1.BorderRadius = 10
         Guna2Button1.CustomizableEdges = CustomizableEdges1
         Guna2Button1.DisabledState.BorderColor = Color.DarkGray
         Guna2Button1.DisabledState.CustomBorderColor = Color.DarkGray
         Guna2Button1.DisabledState.FillColor = Color.FromArgb(CByte(169), CByte(169), CByte(169))
         Guna2Button1.DisabledState.ForeColor = Color.FromArgb(CByte(141), CByte(141), CByte(141))
-        Guna2Button1.Font = New Font("Segoe UI", 9F)
+        Guna2Button1.FillColor = Color.FromArgb(CByte(40), CByte(54), CByte(24))
+        Guna2Button1.Font = New Font("Jellee Bold", 12F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
         Guna2Button1.ForeColor = Color.White
-        Guna2Button1.Location = New Point(83, 398)
+        Guna2Button1.Location = New Point(12, 32)
         Guna2Button1.Name = "Guna2Button1"
         Guna2Button1.ShadowDecoration.CustomizableEdges = CustomizableEdges2
         Guna2Button1.Size = New Size(225, 56)
         Guna2Button1.TabIndex = 0
-        Guna2Button1.Text = "Guna2Button1"
+        Guna2Button1.Text = "Account"
         ' 
         ' pnlTop
         ' 
@@ -122,14 +134,56 @@ Partial Class frmDashboard
         Guna2DragControl1.TargetControl = pnlTop
         Guna2DragControl1.UseTransparentDrag = True
         ' 
+        ' pnlSide
+        ' 
+        pnlSide.BackColor = Color.FromArgb(CByte(221), CByte(161), CByte(94))
+        pnlSide.Controls.Add(Guna2Button2)
+        pnlSide.Controls.Add(Guna2Button1)
+        pnlSide.CustomizableEdges = CustomizableEdges9
+        pnlSide.Dock = DockStyle.Left
+        pnlSide.Location = New Point(0, 40)
+        pnlSide.Name = "pnlSide"
+        pnlSide.ShadowDecoration.CustomizableEdges = CustomizableEdges10
+        pnlSide.Size = New Size(250, 622)
+        pnlSide.TabIndex = 2
+        ' 
+        ' pnlMain
+        ' 
+        pnlMain.CustomizableEdges = CustomizableEdges11
+        pnlMain.Dock = DockStyle.Fill
+        pnlMain.Location = New Point(250, 40)
+        pnlMain.Name = "pnlMain"
+        pnlMain.ShadowDecoration.CustomizableEdges = CustomizableEdges12
+        pnlMain.Size = New Size(854, 622)
+        pnlMain.TabIndex = 3
+        ' 
+        ' Guna2Button2
+        ' 
+        Guna2Button2.BorderRadius = 10
+        Guna2Button2.CustomizableEdges = CustomizableEdges7
+        Guna2Button2.DisabledState.BorderColor = Color.DarkGray
+        Guna2Button2.DisabledState.CustomBorderColor = Color.DarkGray
+        Guna2Button2.DisabledState.FillColor = Color.FromArgb(CByte(169), CByte(169), CByte(169))
+        Guna2Button2.DisabledState.ForeColor = Color.FromArgb(CByte(141), CByte(141), CByte(141))
+        Guna2Button2.FillColor = Color.FromArgb(CByte(40), CByte(54), CByte(24))
+        Guna2Button2.Font = New Font("Jellee Bold", 12F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
+        Guna2Button2.ForeColor = Color.White
+        Guna2Button2.Location = New Point(12, 120)
+        Guna2Button2.Name = "Guna2Button2"
+        Guna2Button2.ShadowDecoration.CustomizableEdges = CustomizableEdges8
+        Guna2Button2.Size = New Size(225, 56)
+        Guna2Button2.TabIndex = 1
+        Guna2Button2.Text = "panelTest"
+        ' 
         ' frmDashboard
         ' 
         AutoScaleDimensions = New SizeF(8F, 20F)
         AutoScaleMode = AutoScaleMode.Font
         BackColor = Color.FromArgb(CByte(254), CByte(250), CByte(224))
         ClientSize = New Size(1104, 662)
+        Controls.Add(pnlMain)
+        Controls.Add(pnlSide)
         Controls.Add(pnlTop)
-        Controls.Add(Guna2Button1)
         FormBorderStyle = FormBorderStyle.None
         Name = "frmDashboard"
         StartPosition = FormStartPosition.CenterScreen
@@ -137,6 +191,7 @@ Partial Class frmDashboard
         pnlTop.ResumeLayout(False)
         pnlTop.PerformLayout()
         CType(Guna2PictureBox2, ComponentModel.ISupportInitialize).EndInit()
+        pnlSide.ResumeLayout(False)
         ResumeLayout(False)
     End Sub
 
@@ -146,4 +201,7 @@ Partial Class frmDashboard
     Friend WithEvents NightControlBox1 As ReaLTaiizor.Controls.NightControlBox
     Friend WithEvents Guna2DragControl1 As Guna.UI2.WinForms.Guna2DragControl
     Friend WithEvents Guna2PictureBox2 As Guna.UI2.WinForms.Guna2PictureBox
+    Friend WithEvents pnlSide As Guna.UI2.WinForms.Guna2Panel
+    Friend WithEvents pnlMain As Guna.UI2.WinForms.Guna2Panel
+    Friend WithEvents Guna2Button2 As Guna.UI2.WinForms.Guna2Button
 End Class

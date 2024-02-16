@@ -1,5 +1,5 @@
 ﻿Public Class frmDashboard
-    Private Sub Guna2Button1_Click(sender As Object, e As EventArgs) Handles Guna2Button1.Click
+    Private Sub Guna2Button1_Click(sender As Object, e As EventArgs) Handles btnAccount.Click
         frmlogin.Show()
         Me.Hide()
     End Sub
@@ -12,8 +12,8 @@
         panel.Show()
     End Sub
 
-    Private Sub Guna2Button2_Click(sender As Object, e As EventArgs) Handles Guna2Button2.Click
-        childform(frmlogin)
+    Private Sub Guna2Button2_Click(sender As Object, e As EventArgs) Handles btnTest.Click
+        childform(frmsignup)
     End Sub
 
     Private Sub frmDashboard_Load(sender As Object, e As EventArgs) Handles MyBase.Load

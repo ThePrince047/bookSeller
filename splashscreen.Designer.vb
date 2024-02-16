@@ -27,6 +27,7 @@ Partial Class splashscreen
         Dim CustomizableEdges2 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges3 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges4 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(splashscreen))
         ProgressBar1 = New Guna.UI2.WinForms.Guna2ProgressBar()
         lb_percent = New Label()
         Timer1 = New Timer(components)
@@ -97,6 +98,7 @@ Partial Class splashscreen
         Controls.Add(lb_percent)
         Controls.Add(ProgressBar1)
         FormBorderStyle = FormBorderStyle.None
+        Icon = CType(resources.GetObject("$this.Icon"), Icon)
         MaximizeBox = False
         Name = "splashscreen"
         StartPosition = FormStartPosition.CenterScreen

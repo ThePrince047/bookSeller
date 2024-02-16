@@ -6,7 +6,12 @@
     <StartupObject>bookSeller.My.MyApplication</StartupObject>
     <UseWindowsForms>true</UseWindowsForms>
     <MyType>WindowsForms</MyType>
+    <ApplicationIcon>book-stack.ico</ApplicationIcon>
   </PropertyGroup>
+
+  <ItemGroup>
+    <Content Include="book-stack.ico" />
+  </ItemGroup>
 
   <ItemGroup>
     <Import Include="System.Data" />

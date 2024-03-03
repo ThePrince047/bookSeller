@@ -23,35 +23,35 @@ Partial Class frmsignup
     <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
         components = New ComponentModel.Container()
-        Dim CustomizableEdges1 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges2 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges3 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges4 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges5 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges6 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges7 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges8 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges9 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges10 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges11 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges12 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges13 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges14 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges15 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges16 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges17 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges18 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges19 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges20 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges21 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges22 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges23 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges24 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges25 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges26 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges27 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges28 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges29 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges30 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges31 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges32 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(frmsignup))
         Guna2PictureBox1 = New Guna.UI2.WinForms.Guna2PictureBox()
         Guna2PictureBox2 = New Guna.UI2.WinForms.Guna2PictureBox()
         Label1 = New Label()
-        Guna2TextBox1 = New Guna.UI2.WinForms.Guna2TextBox()
-        Guna2TextBox2 = New Guna.UI2.WinForms.Guna2TextBox()
-        Guna2TextBox3 = New Guna.UI2.WinForms.Guna2TextBox()
-        Guna2TextBox4 = New Guna.UI2.WinForms.Guna2TextBox()
+        txtUsernameSignup = New Guna.UI2.WinForms.Guna2TextBox()
+        txtEmailSignup = New Guna.UI2.WinForms.Guna2TextBox()
+        txtPasswordSignup = New Guna.UI2.WinForms.Guna2TextBox()
+        txtConpasswordSignup = New Guna.UI2.WinForms.Guna2TextBox()
         signupSubmitBtn = New Guna.UI2.WinForms.Guna2Button()
         Label2 = New Label()
         Label3 = New Label()
-        signupUserRadioBtn = New Guna.UI2.WinForms.Guna2CustomRadioButton()
-        signupAdminRadioBtn = New Guna.UI2.WinForms.Guna2CustomRadioButton()
+        rbUser = New Guna.UI2.WinForms.Guna2CustomRadioButton()
+        rbAdmin = New Guna.UI2.WinForms.Guna2CustomRadioButton()
         Label4 = New Label()
         Label5 = New Label()
         Guna2Elipse1 = New Guna.UI2.WinForms.Guna2Elipse(components)
@@ -63,25 +63,25 @@ Partial Class frmsignup
         ' Guna2PictureBox1
         ' 
         Guna2PictureBox1.BorderRadius = 30
-        Guna2PictureBox1.CustomizableEdges = CustomizableEdges1
+        Guna2PictureBox1.CustomizableEdges = CustomizableEdges17
         Guna2PictureBox1.FillColor = Color.FromArgb(CByte(254), CByte(250), CByte(224))
         Guna2PictureBox1.ImageRotate = 0F
         Guna2PictureBox1.Location = New Point(-24, 0)
         Guna2PictureBox1.Name = "Guna2PictureBox1"
-        Guna2PictureBox1.ShadowDecoration.CustomizableEdges = CustomizableEdges2
+        Guna2PictureBox1.ShadowDecoration.CustomizableEdges = CustomizableEdges18
         Guna2PictureBox1.Size = New Size(421, 574)
         Guna2PictureBox1.TabIndex = 0
         Guna2PictureBox1.TabStop = False
         ' 
         ' Guna2PictureBox2
         ' 
-        Guna2PictureBox2.CustomizableEdges = CustomizableEdges3
+        Guna2PictureBox2.CustomizableEdges = CustomizableEdges19
         Guna2PictureBox2.FillColor = Color.FromArgb(CByte(188), CByte(108), CByte(37))
         Guna2PictureBox2.Image = My.Resources.Resources.bookanim
         Guna2PictureBox2.ImageRotate = 0F
         Guna2PictureBox2.Location = New Point(424, 90)
         Guna2PictureBox2.Name = "Guna2PictureBox2"
-        Guna2PictureBox2.ShadowDecoration.CustomizableEdges = CustomizableEdges4
+        Guna2PictureBox2.ShadowDecoration.CustomizableEdges = CustomizableEdges20
         Guna2PictureBox2.Size = New Size(414, 402)
         Guna2PictureBox2.SizeMode = PictureBoxSizeMode.Zoom
         Guna2PictureBox2.TabIndex = 1
@@ -99,105 +99,105 @@ Partial Class frmsignup
         Label1.TabIndex = 2
         Label1.Text = "Sign Up"
         ' 
-        ' Guna2TextBox1
+        ' txtUsernameSignup
         ' 
-        Guna2TextBox1.BackColor = Color.FromArgb(CByte(254), CByte(250), CByte(224))
-        Guna2TextBox1.BorderRadius = 8
-        Guna2TextBox1.CustomizableEdges = CustomizableEdges5
-        Guna2TextBox1.DefaultText = ""
-        Guna2TextBox1.DisabledState.BorderColor = Color.FromArgb(CByte(208), CByte(208), CByte(208))
-        Guna2TextBox1.DisabledState.FillColor = Color.FromArgb(CByte(226), CByte(226), CByte(226))
-        Guna2TextBox1.DisabledState.ForeColor = Color.FromArgb(CByte(138), CByte(138), CByte(138))
-        Guna2TextBox1.DisabledState.PlaceholderForeColor = Color.FromArgb(CByte(138), CByte(138), CByte(138))
-        Guna2TextBox1.FocusedState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
-        Guna2TextBox1.Font = New Font("Jellee Bold", 9F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
-        Guna2TextBox1.ForeColor = Color.FromArgb(CByte(1), CByte(73), CByte(124))
-        Guna2TextBox1.HoverState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
-        Guna2TextBox1.Location = New Point(13, 133)
-        Guna2TextBox1.Margin = New Padding(4)
-        Guna2TextBox1.Name = "Guna2TextBox1"
-        Guna2TextBox1.PasswordChar = ChrW(0)
-        Guna2TextBox1.PlaceholderForeColor = Color.FromArgb(CByte(96), CByte(108), CByte(56))
-        Guna2TextBox1.PlaceholderText = "Username"
-        Guna2TextBox1.SelectedText = ""
-        Guna2TextBox1.ShadowDecoration.CustomizableEdges = CustomizableEdges6
-        Guna2TextBox1.Size = New Size(358, 40)
-        Guna2TextBox1.TabIndex = 3
+        txtUsernameSignup.BackColor = Color.FromArgb(CByte(254), CByte(250), CByte(224))
+        txtUsernameSignup.BorderRadius = 8
+        txtUsernameSignup.CustomizableEdges = CustomizableEdges21
+        txtUsernameSignup.DefaultText = ""
+        txtUsernameSignup.DisabledState.BorderColor = Color.FromArgb(CByte(208), CByte(208), CByte(208))
+        txtUsernameSignup.DisabledState.FillColor = Color.FromArgb(CByte(226), CByte(226), CByte(226))
+        txtUsernameSignup.DisabledState.ForeColor = Color.FromArgb(CByte(138), CByte(138), CByte(138))
+        txtUsernameSignup.DisabledState.PlaceholderForeColor = Color.FromArgb(CByte(138), CByte(138), CByte(138))
+        txtUsernameSignup.FocusedState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
+        txtUsernameSignup.Font = New Font("Jellee Bold", 9F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
+        txtUsernameSignup.ForeColor = Color.FromArgb(CByte(1), CByte(73), CByte(124))
+        txtUsernameSignup.HoverState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
+        txtUsernameSignup.Location = New Point(13, 133)
+        txtUsernameSignup.Margin = New Padding(4)
+        txtUsernameSignup.Name = "txtUsernameSignup"
+        txtUsernameSignup.PasswordChar = ChrW(0)
+        txtUsernameSignup.PlaceholderForeColor = Color.FromArgb(CByte(96), CByte(108), CByte(56))
+        txtUsernameSignup.PlaceholderText = "Username"
+        txtUsernameSignup.SelectedText = ""
+        txtUsernameSignup.ShadowDecoration.CustomizableEdges = CustomizableEdges22
+        txtUsernameSignup.Size = New Size(358, 40)
+        txtUsernameSignup.TabIndex = 3
         ' 
-        ' Guna2TextBox2
+        ' txtEmailSignup
         ' 
-        Guna2TextBox2.BackColor = Color.FromArgb(CByte(254), CByte(250), CByte(224))
-        Guna2TextBox2.BorderRadius = 8
-        Guna2TextBox2.CustomizableEdges = CustomizableEdges7
-        Guna2TextBox2.DefaultText = ""
-        Guna2TextBox2.DisabledState.BorderColor = Color.FromArgb(CByte(208), CByte(208), CByte(208))
-        Guna2TextBox2.DisabledState.FillColor = Color.FromArgb(CByte(226), CByte(226), CByte(226))
-        Guna2TextBox2.DisabledState.ForeColor = Color.FromArgb(CByte(138), CByte(138), CByte(138))
-        Guna2TextBox2.DisabledState.PlaceholderForeColor = Color.FromArgb(CByte(138), CByte(138), CByte(138))
-        Guna2TextBox2.FocusedState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
-        Guna2TextBox2.Font = New Font("Jellee Bold", 9F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
-        Guna2TextBox2.ForeColor = Color.FromArgb(CByte(1), CByte(73), CByte(124))
-        Guna2TextBox2.HoverState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
-        Guna2TextBox2.Location = New Point(13, 194)
-        Guna2TextBox2.Margin = New Padding(4)
-        Guna2TextBox2.Name = "Guna2TextBox2"
-        Guna2TextBox2.PasswordChar = ChrW(0)
-        Guna2TextBox2.PlaceholderForeColor = Color.FromArgb(CByte(96), CByte(108), CByte(56))
-        Guna2TextBox2.PlaceholderText = "Email"
-        Guna2TextBox2.SelectedText = ""
-        Guna2TextBox2.ShadowDecoration.CustomizableEdges = CustomizableEdges8
-        Guna2TextBox2.Size = New Size(358, 43)
-        Guna2TextBox2.TabIndex = 4
+        txtEmailSignup.BackColor = Color.FromArgb(CByte(254), CByte(250), CByte(224))
+        txtEmailSignup.BorderRadius = 8
+        txtEmailSignup.CustomizableEdges = CustomizableEdges23
+        txtEmailSignup.DefaultText = ""
+        txtEmailSignup.DisabledState.BorderColor = Color.FromArgb(CByte(208), CByte(208), CByte(208))
+        txtEmailSignup.DisabledState.FillColor = Color.FromArgb(CByte(226), CByte(226), CByte(226))
+        txtEmailSignup.DisabledState.ForeColor = Color.FromArgb(CByte(138), CByte(138), CByte(138))
+        txtEmailSignup.DisabledState.PlaceholderForeColor = Color.FromArgb(CByte(138), CByte(138), CByte(138))
+        txtEmailSignup.FocusedState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
+        txtEmailSignup.Font = New Font("Jellee Bold", 9F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
+        txtEmailSignup.ForeColor = Color.FromArgb(CByte(1), CByte(73), CByte(124))
+        txtEmailSignup.HoverState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
+        txtEmailSignup.Location = New Point(13, 194)
+        txtEmailSignup.Margin = New Padding(4)
+        txtEmailSignup.Name = "txtEmailSignup"
+        txtEmailSignup.PasswordChar = ChrW(0)
+        txtEmailSignup.PlaceholderForeColor = Color.FromArgb(CByte(96), CByte(108), CByte(56))
+        txtEmailSignup.PlaceholderText = "Email"
+        txtEmailSignup.SelectedText = ""
+        txtEmailSignup.ShadowDecoration.CustomizableEdges = CustomizableEdges24
+        txtEmailSignup.Size = New Size(358, 43)
+        txtEmailSignup.TabIndex = 4
         ' 
-        ' Guna2TextBox3
+        ' txtPasswordSignup
         ' 
-        Guna2TextBox3.BackColor = Color.FromArgb(CByte(254), CByte(250), CByte(224))
-        Guna2TextBox3.BorderRadius = 8
-        Guna2TextBox3.CustomizableEdges = CustomizableEdges9
-        Guna2TextBox3.DefaultText = ""
-        Guna2TextBox3.DisabledState.BorderColor = Color.FromArgb(CByte(208), CByte(208), CByte(208))
-        Guna2TextBox3.DisabledState.FillColor = Color.FromArgb(CByte(226), CByte(226), CByte(226))
-        Guna2TextBox3.DisabledState.ForeColor = Color.FromArgb(CByte(138), CByte(138), CByte(138))
-        Guna2TextBox3.DisabledState.PlaceholderForeColor = Color.FromArgb(CByte(138), CByte(138), CByte(138))
-        Guna2TextBox3.FocusedState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
-        Guna2TextBox3.Font = New Font("Jellee Bold", 9F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
-        Guna2TextBox3.ForeColor = Color.FromArgb(CByte(1), CByte(73), CByte(124))
-        Guna2TextBox3.HoverState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
-        Guna2TextBox3.Location = New Point(13, 258)
-        Guna2TextBox3.Margin = New Padding(4)
-        Guna2TextBox3.Name = "Guna2TextBox3"
-        Guna2TextBox3.PasswordChar = "*"c
-        Guna2TextBox3.PlaceholderForeColor = Color.FromArgb(CByte(96), CByte(108), CByte(56))
-        Guna2TextBox3.PlaceholderText = "Password"
-        Guna2TextBox3.SelectedText = ""
-        Guna2TextBox3.ShadowDecoration.CustomizableEdges = CustomizableEdges10
-        Guna2TextBox3.Size = New Size(358, 42)
-        Guna2TextBox3.TabIndex = 5
+        txtPasswordSignup.BackColor = Color.FromArgb(CByte(254), CByte(250), CByte(224))
+        txtPasswordSignup.BorderRadius = 8
+        txtPasswordSignup.CustomizableEdges = CustomizableEdges25
+        txtPasswordSignup.DefaultText = ""
+        txtPasswordSignup.DisabledState.BorderColor = Color.FromArgb(CByte(208), CByte(208), CByte(208))
+        txtPasswordSignup.DisabledState.FillColor = Color.FromArgb(CByte(226), CByte(226), CByte(226))
+        txtPasswordSignup.DisabledState.ForeColor = Color.FromArgb(CByte(138), CByte(138), CByte(138))
+        txtPasswordSignup.DisabledState.PlaceholderForeColor = Color.FromArgb(CByte(138), CByte(138), CByte(138))
+        txtPasswordSignup.FocusedState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
+        txtPasswordSignup.Font = New Font("Jellee Bold", 9F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
+        txtPasswordSignup.ForeColor = Color.FromArgb(CByte(1), CByte(73), CByte(124))
+        txtPasswordSignup.HoverState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
+        txtPasswordSignup.Location = New Point(13, 258)
+        txtPasswordSignup.Margin = New Padding(4)
+        txtPasswordSignup.Name = "txtPasswordSignup"
+        txtPasswordSignup.PasswordChar = "*"c
+        txtPasswordSignup.PlaceholderForeColor = Color.FromArgb(CByte(96), CByte(108), CByte(56))
+        txtPasswordSignup.PlaceholderText = "Password"
+        txtPasswordSignup.SelectedText = ""
+        txtPasswordSignup.ShadowDecoration.CustomizableEdges = CustomizableEdges26
+        txtPasswordSignup.Size = New Size(358, 42)
+        txtPasswordSignup.TabIndex = 5
         ' 
-        ' Guna2TextBox4
+        ' txtConpasswordSignup
         ' 
-        Guna2TextBox4.BackColor = Color.FromArgb(CByte(254), CByte(250), CByte(224))
-        Guna2TextBox4.BorderRadius = 8
-        Guna2TextBox4.CustomizableEdges = CustomizableEdges11
-        Guna2TextBox4.DefaultText = ""
-        Guna2TextBox4.DisabledState.BorderColor = Color.FromArgb(CByte(208), CByte(208), CByte(208))
-        Guna2TextBox4.DisabledState.FillColor = Color.FromArgb(CByte(226), CByte(226), CByte(226))
-        Guna2TextBox4.DisabledState.ForeColor = Color.FromArgb(CByte(138), CByte(138), CByte(138))
-        Guna2TextBox4.DisabledState.PlaceholderForeColor = Color.FromArgb(CByte(138), CByte(138), CByte(138))
-        Guna2TextBox4.FocusedState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
-        Guna2TextBox4.Font = New Font("Jellee Bold", 9F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
-        Guna2TextBox4.ForeColor = Color.FromArgb(CByte(1), CByte(73), CByte(124))
-        Guna2TextBox4.HoverState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
-        Guna2TextBox4.Location = New Point(13, 325)
-        Guna2TextBox4.Margin = New Padding(4)
-        Guna2TextBox4.Name = "Guna2TextBox4"
-        Guna2TextBox4.PasswordChar = ChrW(0)
-        Guna2TextBox4.PlaceholderForeColor = Color.FromArgb(CByte(96), CByte(108), CByte(56))
-        Guna2TextBox4.PlaceholderText = "Confirm Password"
-        Guna2TextBox4.SelectedText = ""
-        Guna2TextBox4.ShadowDecoration.CustomizableEdges = CustomizableEdges12
-        Guna2TextBox4.Size = New Size(358, 46)
-        Guna2TextBox4.TabIndex = 6
+        txtConpasswordSignup.BackColor = Color.FromArgb(CByte(254), CByte(250), CByte(224))
+        txtConpasswordSignup.BorderRadius = 8
+        txtConpasswordSignup.CustomizableEdges = CustomizableEdges27
+        txtConpasswordSignup.DefaultText = ""
+        txtConpasswordSignup.DisabledState.BorderColor = Color.FromArgb(CByte(208), CByte(208), CByte(208))
+        txtConpasswordSignup.DisabledState.FillColor = Color.FromArgb(CByte(226), CByte(226), CByte(226))
+        txtConpasswordSignup.DisabledState.ForeColor = Color.FromArgb(CByte(138), CByte(138), CByte(138))
+        txtConpasswordSignup.DisabledState.PlaceholderForeColor = Color.FromArgb(CByte(138), CByte(138), CByte(138))
+        txtConpasswordSignup.FocusedState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
+        txtConpasswordSignup.Font = New Font("Jellee Bold", 9F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
+        txtConpasswordSignup.ForeColor = Color.FromArgb(CByte(1), CByte(73), CByte(124))
+        txtConpasswordSignup.HoverState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
+        txtConpasswordSignup.Location = New Point(13, 325)
+        txtConpasswordSignup.Margin = New Padding(4)
+        txtConpasswordSignup.Name = "txtConpasswordSignup"
+        txtConpasswordSignup.PasswordChar = ChrW(0)
+        txtConpasswordSignup.PlaceholderForeColor = Color.FromArgb(CByte(96), CByte(108), CByte(56))
+        txtConpasswordSignup.PlaceholderText = "Confirm Password"
+        txtConpasswordSignup.SelectedText = ""
+        txtConpasswordSignup.ShadowDecoration.CustomizableEdges = CustomizableEdges28
+        txtConpasswordSignup.Size = New Size(358, 46)
+        txtConpasswordSignup.TabIndex = 6
         ' 
         ' signupSubmitBtn
         ' 
@@ -206,7 +206,7 @@ Partial Class frmsignup
         signupSubmitBtn.BorderRadius = 15
         signupSubmitBtn.BorderThickness = 2
         signupSubmitBtn.Cursor = Cursors.HSplit
-        signupSubmitBtn.CustomizableEdges = CustomizableEdges13
+        signupSubmitBtn.CustomizableEdges = CustomizableEdges29
         signupSubmitBtn.DisabledState.BorderColor = Color.DarkGray
         signupSubmitBtn.DisabledState.CustomBorderColor = Color.DarkGray
         signupSubmitBtn.DisabledState.FillColor = Color.FromArgb(CByte(169), CByte(169), CByte(169))
@@ -219,7 +219,7 @@ Partial Class frmsignup
         signupSubmitBtn.HoverState.Font = New Font("Jellee Bold", 16.2F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
         signupSubmitBtn.Location = New Point(115, 396)
         signupSubmitBtn.Name = "signupSubmitBtn"
-        signupSubmitBtn.ShadowDecoration.CustomizableEdges = CustomizableEdges14
+        signupSubmitBtn.ShadowDecoration.CustomizableEdges = CustomizableEdges30
         signupSubmitBtn.Size = New Size(142, 59)
         signupSubmitBtn.TabIndex = 7
         signupSubmitBtn.Text = "Submit"
@@ -249,43 +249,43 @@ Partial Class frmsignup
         Label3.TabIndex = 9
         Label3.Text = "Log In"
         ' 
-        ' signupUserRadioBtn
+        ' rbUser
         ' 
-        signupUserRadioBtn.BackColor = Color.FromArgb(CByte(254), CByte(250), CByte(224))
-        signupUserRadioBtn.CheckedState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
-        signupUserRadioBtn.CheckedState.BorderThickness = 0
-        signupUserRadioBtn.CheckedState.FillColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
-        signupUserRadioBtn.CheckedState.InnerColor = Color.White
-        signupUserRadioBtn.Font = New Font("Jellee Bold", 9F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
-        signupUserRadioBtn.Location = New Point(208, 90)
-        signupUserRadioBtn.Name = "signupUserRadioBtn"
-        signupUserRadioBtn.ShadowDecoration.CustomizableEdges = CustomizableEdges15
-        signupUserRadioBtn.Size = New Size(25, 25)
-        signupUserRadioBtn.TabIndex = 12
-        signupUserRadioBtn.Text = "User"
-        signupUserRadioBtn.UncheckedState.BorderColor = Color.FromArgb(CByte(125), CByte(137), CByte(149))
-        signupUserRadioBtn.UncheckedState.BorderThickness = 2
-        signupUserRadioBtn.UncheckedState.FillColor = Color.Transparent
-        signupUserRadioBtn.UncheckedState.InnerColor = Color.Transparent
+        rbUser.BackColor = Color.FromArgb(CByte(254), CByte(250), CByte(224))
+        rbUser.CheckedState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
+        rbUser.CheckedState.BorderThickness = 0
+        rbUser.CheckedState.FillColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
+        rbUser.CheckedState.InnerColor = Color.White
+        rbUser.Font = New Font("Jellee Bold", 9F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
+        rbUser.Location = New Point(208, 90)
+        rbUser.Name = "rbUser"
+        rbUser.ShadowDecoration.CustomizableEdges = CustomizableEdges31
+        rbUser.Size = New Size(25, 25)
+        rbUser.TabIndex = 12
+        rbUser.Text = "User"
+        rbUser.UncheckedState.BorderColor = Color.FromArgb(CByte(125), CByte(137), CByte(149))
+        rbUser.UncheckedState.BorderThickness = 2
+        rbUser.UncheckedState.FillColor = Color.Transparent
+        rbUser.UncheckedState.InnerColor = Color.Transparent
         ' 
-        ' signupAdminRadioBtn
+        ' rbAdmin
         ' 
-        signupAdminRadioBtn.BackColor = Color.FromArgb(CByte(254), CByte(250), CByte(224))
-        signupAdminRadioBtn.CheckedState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
-        signupAdminRadioBtn.CheckedState.BorderThickness = 0
-        signupAdminRadioBtn.CheckedState.FillColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
-        signupAdminRadioBtn.CheckedState.InnerColor = Color.White
-        signupAdminRadioBtn.Font = New Font("Jellee Bold", 9F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
-        signupAdminRadioBtn.Location = New Point(77, 90)
-        signupAdminRadioBtn.Name = "signupAdminRadioBtn"
-        signupAdminRadioBtn.ShadowDecoration.CustomizableEdges = CustomizableEdges16
-        signupAdminRadioBtn.Size = New Size(25, 25)
-        signupAdminRadioBtn.TabIndex = 11
-        signupAdminRadioBtn.Text = "Admin"
-        signupAdminRadioBtn.UncheckedState.BorderColor = Color.FromArgb(CByte(125), CByte(137), CByte(149))
-        signupAdminRadioBtn.UncheckedState.BorderThickness = 2
-        signupAdminRadioBtn.UncheckedState.FillColor = Color.Transparent
-        signupAdminRadioBtn.UncheckedState.InnerColor = Color.Transparent
+        rbAdmin.BackColor = Color.FromArgb(CByte(254), CByte(250), CByte(224))
+        rbAdmin.CheckedState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
+        rbAdmin.CheckedState.BorderThickness = 0
+        rbAdmin.CheckedState.FillColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
+        rbAdmin.CheckedState.InnerColor = Color.White
+        rbAdmin.Font = New Font("Jellee Bold", 9F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
+        rbAdmin.Location = New Point(77, 90)
+        rbAdmin.Name = "rbAdmin"
+        rbAdmin.ShadowDecoration.CustomizableEdges = CustomizableEdges32
+        rbAdmin.Size = New Size(25, 25)
+        rbAdmin.TabIndex = 11
+        rbAdmin.Text = "Admin"
+        rbAdmin.UncheckedState.BorderColor = Color.FromArgb(CByte(125), CByte(137), CByte(149))
+        rbAdmin.UncheckedState.BorderThickness = 2
+        rbAdmin.UncheckedState.FillColor = Color.Transparent
+        rbAdmin.UncheckedState.InnerColor = Color.Transparent
         ' 
         ' Label4
         ' 
@@ -348,15 +348,15 @@ Partial Class frmsignup
         Controls.Add(NightControlBox1)
         Controls.Add(Label5)
         Controls.Add(Label4)
-        Controls.Add(signupUserRadioBtn)
-        Controls.Add(signupAdminRadioBtn)
+        Controls.Add(rbUser)
+        Controls.Add(rbAdmin)
         Controls.Add(Label3)
         Controls.Add(Label2)
         Controls.Add(signupSubmitBtn)
-        Controls.Add(Guna2TextBox4)
-        Controls.Add(Guna2TextBox3)
-        Controls.Add(Guna2TextBox2)
-        Controls.Add(Guna2TextBox1)
+        Controls.Add(txtConpasswordSignup)
+        Controls.Add(txtPasswordSignup)
+        Controls.Add(txtEmailSignup)
+        Controls.Add(txtUsernameSignup)
         Controls.Add(Label1)
         Controls.Add(Guna2PictureBox2)
         Controls.Add(Guna2PictureBox1)
@@ -373,10 +373,10 @@ Partial Class frmsignup
     Friend WithEvents Guna2PictureBox1 As Guna.UI2.WinForms.Guna2PictureBox
     Friend WithEvents Guna2PictureBox2 As Guna.UI2.WinForms.Guna2PictureBox
     Friend WithEvents Label1 As Label
-    Friend WithEvents Guna2TextBox1 As Guna.UI2.WinForms.Guna2TextBox
-    Friend WithEvents Guna2TextBox2 As Guna.UI2.WinForms.Guna2TextBox
-    Friend WithEvents Guna2TextBox3 As Guna.UI2.WinForms.Guna2TextBox
-    Friend WithEvents Guna2TextBox4 As Guna.UI2.WinForms.Guna2TextBox
+    Friend WithEvents txtUsernameSignup As Guna.UI2.WinForms.Guna2TextBox
+    Friend WithEvents txtEmailSignup As Guna.UI2.WinForms.Guna2TextBox
+    Friend WithEvents txtPasswordSignup As Guna.UI2.WinForms.Guna2TextBox
+    Friend WithEvents txtConpasswordSignup As Guna.UI2.WinForms.Guna2TextBox
     Friend WithEvents Guna2Button1 As Guna.UI2.WinForms.Guna2Button
     Friend WithEvents Label2 As Label
     Friend WithEvents Label3 As Label
@@ -387,8 +387,8 @@ Partial Class frmsignup
     Friend WithEvents Label5 As Label
     Friend WithEvents closeBtn As Guna.UI2.WinForms.Guna2PictureBox
     Friend WithEvents signupSubmitBtn As Guna.UI2.WinForms.Guna2Button
-    Friend WithEvents signupUserRadioBtn As Guna.UI2.WinForms.Guna2CustomRadioButton
-    Friend WithEvents signupAdminRadioBtn As Guna.UI2.WinForms.Guna2CustomRadioButton
+    Friend WithEvents rbUser As Guna.UI2.WinForms.Guna2CustomRadioButton
+    Friend WithEvents rbAdmin As Guna.UI2.WinForms.Guna2CustomRadioButton
     Friend WithEvents Guna2Elipse1 As Guna.UI2.WinForms.Guna2Elipse
     Friend WithEvents NightControlBox1 As ReaLTaiizor.Controls.NightControlBox
 End Class

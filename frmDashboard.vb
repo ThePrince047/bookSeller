@@ -12,13 +12,12 @@
         panel.Show()
     End Sub
 
-    Private Sub Guna2Button2_Click(sender As Object, e As EventArgs) Handles btnTest.Click
+    Private Sub Guna2Button2_Click(sender As Object, e As EventArgs)
         childform(frmsignup)
     End Sub
 
     Private Sub frmDashboard_Load(sender As Object, e As EventArgs) Handles MyBase.Load
 
     End Sub
-
 
 End Class

@@ -22,64 +22,59 @@ Partial Class frmBooks
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
-        Dim DataGridViewCellStyle4 As DataGridViewCellStyle = New DataGridViewCellStyle()
-        Dim DataGridViewCellStyle5 As DataGridViewCellStyle = New DataGridViewCellStyle()
-        Dim DataGridViewCellStyle6 As DataGridViewCellStyle = New DataGridViewCellStyle()
-        dgBooks = New Guna.UI2.WinForms.Guna2DataGridView()
+        Dim DataGridViewCellStyle1 As DataGridViewCellStyle = New DataGridViewCellStyle()
+        Dim DataGridViewCellStyle2 As DataGridViewCellStyle = New DataGridViewCellStyle()
+        Dim DataGridViewCellStyle3 As DataGridViewCellStyle = New DataGridViewCellStyle()
+        dgBooks = New ReaLTaiizor.Controls.PoisonDataGridView()
         CType(dgBooks, ComponentModel.ISupportInitialize).BeginInit()
         SuspendLayout()
         ' 
         ' dgBooks
         ' 
-        DataGridViewCellStyle4.BackColor = Color.White
-        dgBooks.AlternatingRowsDefaultCellStyle = DataGridViewCellStyle4
-        DataGridViewCellStyle5.Alignment = DataGridViewContentAlignment.MiddleLeft
-        DataGridViewCellStyle5.BackColor = Color.FromArgb(CByte(100), CByte(88), CByte(255))
-        DataGridViewCellStyle5.Font = New Font("Segoe UI", 9F)
-        DataGridViewCellStyle5.ForeColor = Color.White
-        DataGridViewCellStyle5.SelectionBackColor = SystemColors.Highlight
-        DataGridViewCellStyle5.SelectionForeColor = SystemColors.HighlightText
-        DataGridViewCellStyle5.WrapMode = DataGridViewTriState.True
-        dgBooks.ColumnHeadersDefaultCellStyle = DataGridViewCellStyle5
-        dgBooks.ColumnHeadersHeight = 4
-        dgBooks.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.EnableResizing
-        DataGridViewCellStyle6.Alignment = DataGridViewContentAlignment.MiddleLeft
-        DataGridViewCellStyle6.BackColor = Color.White
-        DataGridViewCellStyle6.Font = New Font("Segoe UI", 9F)
-        DataGridViewCellStyle6.ForeColor = Color.FromArgb(CByte(71), CByte(69), CByte(94))
-        DataGridViewCellStyle6.SelectionBackColor = Color.FromArgb(CByte(231), CByte(229), CByte(255))
-        DataGridViewCellStyle6.SelectionForeColor = Color.FromArgb(CByte(71), CByte(69), CByte(94))
-        DataGridViewCellStyle6.WrapMode = DataGridViewTriState.False
-        dgBooks.DefaultCellStyle = DataGridViewCellStyle6
+        dgBooks.AllowUserToResizeRows = False
+        dgBooks.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill
+        dgBooks.AutoSizeRowsMode = DataGridViewAutoSizeRowsMode.AllCells
+        dgBooks.BackgroundColor = Color.FromArgb(CByte(255), CByte(255), CByte(255))
+        dgBooks.BorderStyle = BorderStyle.None
+        dgBooks.CellBorderStyle = DataGridViewCellBorderStyle.None
+        dgBooks.ColumnHeadersBorderStyle = DataGridViewHeaderBorderStyle.None
+        DataGridViewCellStyle1.Alignment = DataGridViewContentAlignment.MiddleLeft
+        DataGridViewCellStyle1.BackColor = Color.FromArgb(CByte(188), CByte(108), CByte(37))
+        DataGridViewCellStyle1.Font = New Font("Jellee Bold", 16.2F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
+        DataGridViewCellStyle1.ForeColor = Color.FromArgb(CByte(255), CByte(255), CByte(255))
+        DataGridViewCellStyle1.SelectionBackColor = Color.FromArgb(CByte(188), CByte(108), CByte(37))
+        DataGridViewCellStyle1.SelectionForeColor = Color.FromArgb(CByte(17), CByte(17), CByte(17))
+        DataGridViewCellStyle1.WrapMode = DataGridViewTriState.True
+        dgBooks.ColumnHeadersDefaultCellStyle = DataGridViewCellStyle1
+        dgBooks.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize
+        DataGridViewCellStyle2.Alignment = DataGridViewContentAlignment.MiddleLeft
+        DataGridViewCellStyle2.BackColor = Color.FromArgb(CByte(188), CByte(108), CByte(37))
+        DataGridViewCellStyle2.Font = New Font("Jellee Bold", 16.2F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
+        DataGridViewCellStyle2.ForeColor = Color.White
+        DataGridViewCellStyle2.SelectionBackColor = Color.FromArgb(CByte(188), CByte(108), CByte(37))
+        DataGridViewCellStyle2.SelectionForeColor = Color.FromArgb(CByte(17), CByte(17), CByte(17))
+        DataGridViewCellStyle2.WrapMode = DataGridViewTriState.False
+        dgBooks.DefaultCellStyle = DataGridViewCellStyle2
         dgBooks.Dock = DockStyle.Fill
-        dgBooks.GridColor = Color.FromArgb(CByte(231), CByte(229), CByte(255))
+        dgBooks.EnableHeadersVisualStyles = False
+        dgBooks.Font = New Font("Segoe UI", 11F, FontStyle.Regular, GraphicsUnit.Pixel)
+        dgBooks.GridColor = Color.FromArgb(CByte(255), CByte(255), CByte(255))
         dgBooks.Location = New Point(0, 0)
         dgBooks.Name = "dgBooks"
-        dgBooks.RowHeadersVisible = False
+        dgBooks.RowHeadersBorderStyle = DataGridViewHeaderBorderStyle.None
+        DataGridViewCellStyle3.Alignment = DataGridViewContentAlignment.MiddleLeft
+        DataGridViewCellStyle3.BackColor = Color.FromArgb(CByte(0), CByte(174), CByte(219))
+        DataGridViewCellStyle3.Font = New Font("Segoe UI", 11F, FontStyle.Regular, GraphicsUnit.Pixel)
+        DataGridViewCellStyle3.ForeColor = Color.FromArgb(CByte(255), CByte(255), CByte(255))
+        DataGridViewCellStyle3.SelectionBackColor = Color.FromArgb(CByte(0), CByte(198), CByte(247))
+        DataGridViewCellStyle3.SelectionForeColor = Color.FromArgb(CByte(17), CByte(17), CByte(17))
+        DataGridViewCellStyle3.WrapMode = DataGridViewTriState.True
+        dgBooks.RowHeadersDefaultCellStyle = DataGridViewCellStyle3
         dgBooks.RowHeadersWidth = 51
+        dgBooks.RowHeadersWidthSizeMode = DataGridViewRowHeadersWidthSizeMode.DisableResizing
+        dgBooks.SelectionMode = DataGridViewSelectionMode.FullRowSelect
         dgBooks.Size = New Size(880, 662)
         dgBooks.TabIndex = 0
-        dgBooks.ThemeStyle.AlternatingRowsStyle.BackColor = Color.White
-        dgBooks.ThemeStyle.AlternatingRowsStyle.Font = Nothing
-        dgBooks.ThemeStyle.AlternatingRowsStyle.ForeColor = Color.Empty
-        dgBooks.ThemeStyle.AlternatingRowsStyle.SelectionBackColor = Color.Empty
-        dgBooks.ThemeStyle.AlternatingRowsStyle.SelectionForeColor = Color.Empty
-        dgBooks.ThemeStyle.BackColor = Color.White
-        dgBooks.ThemeStyle.GridColor = Color.FromArgb(CByte(231), CByte(229), CByte(255))
-        dgBooks.ThemeStyle.HeaderStyle.BackColor = Color.FromArgb(CByte(100), CByte(88), CByte(255))
-        dgBooks.ThemeStyle.HeaderStyle.BorderStyle = DataGridViewHeaderBorderStyle.None
-        dgBooks.ThemeStyle.HeaderStyle.Font = New Font("Segoe UI", 9F)
-        dgBooks.ThemeStyle.HeaderStyle.ForeColor = Color.White
-        dgBooks.ThemeStyle.HeaderStyle.HeaightSizeMode = DataGridViewColumnHeadersHeightSizeMode.EnableResizing
-        dgBooks.ThemeStyle.HeaderStyle.Height = 4
-        dgBooks.ThemeStyle.ReadOnly = False
-        dgBooks.ThemeStyle.RowsStyle.BackColor = Color.White
-        dgBooks.ThemeStyle.RowsStyle.BorderStyle = DataGridViewCellBorderStyle.SingleHorizontal
-        dgBooks.ThemeStyle.RowsStyle.Font = New Font("Segoe UI", 9F)
-        dgBooks.ThemeStyle.RowsStyle.ForeColor = Color.FromArgb(CByte(71), CByte(69), CByte(94))
-        dgBooks.ThemeStyle.RowsStyle.Height = 29
-        dgBooks.ThemeStyle.RowsStyle.SelectionBackColor = Color.FromArgb(CByte(231), CByte(229), CByte(255))
-        dgBooks.ThemeStyle.RowsStyle.SelectionForeColor = Color.FromArgb(CByte(71), CByte(69), CByte(94))
         ' 
         ' frmBooks
         ' 
@@ -94,5 +89,5 @@ Partial Class frmBooks
         ResumeLayout(False)
     End Sub
 
-    Friend WithEvents dgBooks As Guna.UI2.WinForms.Guna2DataGridView
+    Friend WithEvents dgBooks As ReaLTaiizor.Controls.PoisonDataGridView
 End Class

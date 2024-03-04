@@ -45,8 +45,8 @@ Partial Class frmlogin
         Label2 = New Label()
         signuptxt = New Label()
         Guna2PictureBox2 = New Guna.UI2.WinForms.Guna2PictureBox()
-        loginAdminRadioBtn = New Guna.UI2.WinForms.Guna2CustomRadioButton()
-        loginUserRadioBtn = New Guna.UI2.WinForms.Guna2CustomRadioButton()
+        rbAdmin = New Guna.UI2.WinForms.Guna2CustomRadioButton()
+        rbUser = New Guna.UI2.WinForms.Guna2CustomRadioButton()
         Label4 = New Label()
         Label5 = New Label()
         Guna2Elipse1 = New Guna.UI2.WinForms.Guna2Elipse(components)
@@ -210,47 +210,47 @@ Partial Class frmlogin
         Guna2PictureBox2.TabIndex = 9
         Guna2PictureBox2.TabStop = False
         ' 
-        ' loginAdminRadioBtn
+        ' rbAdmin
         ' 
-        loginAdminRadioBtn.BackColor = Color.FromArgb(CByte(254), CByte(250), CByte(224))
-        loginAdminRadioBtn.CheckedState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
-        loginAdminRadioBtn.CheckedState.BorderThickness = 0
-        loginAdminRadioBtn.CheckedState.FillColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
-        loginAdminRadioBtn.CheckedState.InnerColor = Color.White
-        loginAdminRadioBtn.Cursor = Cursors.Hand
-        loginAdminRadioBtn.Font = New Font("Jellee Bold", 9F, FontStyle.Bold)
-        loginAdminRadioBtn.ForeColor = Color.White
-        loginAdminRadioBtn.Location = New Point(550, 135)
-        loginAdminRadioBtn.Name = "loginAdminRadioBtn"
-        loginAdminRadioBtn.ShadowDecoration.CustomizableEdges = CustomizableEdges23
-        loginAdminRadioBtn.Size = New Size(25, 25)
-        loginAdminRadioBtn.TabIndex = 12
-        loginAdminRadioBtn.Text = "Admin"
-        loginAdminRadioBtn.UncheckedState.BorderColor = Color.FromArgb(CByte(125), CByte(137), CByte(149))
-        loginAdminRadioBtn.UncheckedState.BorderThickness = 2
-        loginAdminRadioBtn.UncheckedState.FillColor = Color.Transparent
-        loginAdminRadioBtn.UncheckedState.InnerColor = Color.Transparent
+        rbAdmin.BackColor = Color.FromArgb(CByte(254), CByte(250), CByte(224))
+        rbAdmin.CheckedState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
+        rbAdmin.CheckedState.BorderThickness = 0
+        rbAdmin.CheckedState.FillColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
+        rbAdmin.CheckedState.InnerColor = Color.White
+        rbAdmin.Cursor = Cursors.Hand
+        rbAdmin.Font = New Font("Jellee Bold", 9F, FontStyle.Bold)
+        rbAdmin.ForeColor = Color.White
+        rbAdmin.Location = New Point(550, 135)
+        rbAdmin.Name = "rbAdmin"
+        rbAdmin.ShadowDecoration.CustomizableEdges = CustomizableEdges23
+        rbAdmin.Size = New Size(25, 25)
+        rbAdmin.TabIndex = 12
+        rbAdmin.Text = "Admin"
+        rbAdmin.UncheckedState.BorderColor = Color.FromArgb(CByte(125), CByte(137), CByte(149))
+        rbAdmin.UncheckedState.BorderThickness = 2
+        rbAdmin.UncheckedState.FillColor = Color.Transparent
+        rbAdmin.UncheckedState.InnerColor = Color.Transparent
         ' 
-        ' loginUserRadioBtn
+        ' rbUser
         ' 
-        loginUserRadioBtn.BackColor = Color.FromArgb(CByte(254), CByte(250), CByte(224))
-        loginUserRadioBtn.CheckedState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
-        loginUserRadioBtn.CheckedState.BorderThickness = 0
-        loginUserRadioBtn.CheckedState.FillColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
-        loginUserRadioBtn.CheckedState.InnerColor = Color.White
-        loginUserRadioBtn.Cursor = Cursors.Hand
-        loginUserRadioBtn.Font = New Font("Jellee Bold", 9F, FontStyle.Bold)
-        loginUserRadioBtn.ForeColor = Color.White
-        loginUserRadioBtn.Location = New Point(682, 135)
-        loginUserRadioBtn.Name = "loginUserRadioBtn"
-        loginUserRadioBtn.ShadowDecoration.CustomizableEdges = CustomizableEdges24
-        loginUserRadioBtn.Size = New Size(25, 25)
-        loginUserRadioBtn.TabIndex = 13
-        loginUserRadioBtn.Text = "Admin"
-        loginUserRadioBtn.UncheckedState.BorderColor = Color.FromArgb(CByte(125), CByte(137), CByte(149))
-        loginUserRadioBtn.UncheckedState.BorderThickness = 2
-        loginUserRadioBtn.UncheckedState.FillColor = Color.Transparent
-        loginUserRadioBtn.UncheckedState.InnerColor = Color.Transparent
+        rbUser.BackColor = Color.FromArgb(CByte(254), CByte(250), CByte(224))
+        rbUser.CheckedState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
+        rbUser.CheckedState.BorderThickness = 0
+        rbUser.CheckedState.FillColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
+        rbUser.CheckedState.InnerColor = Color.White
+        rbUser.Cursor = Cursors.Hand
+        rbUser.Font = New Font("Jellee Bold", 9F, FontStyle.Bold)
+        rbUser.ForeColor = Color.White
+        rbUser.Location = New Point(682, 135)
+        rbUser.Name = "rbUser"
+        rbUser.ShadowDecoration.CustomizableEdges = CustomizableEdges24
+        rbUser.Size = New Size(25, 25)
+        rbUser.TabIndex = 13
+        rbUser.Text = "Admin"
+        rbUser.UncheckedState.BorderColor = Color.FromArgb(CByte(125), CByte(137), CByte(149))
+        rbUser.UncheckedState.BorderThickness = 2
+        rbUser.UncheckedState.FillColor = Color.Transparent
+        rbUser.UncheckedState.InnerColor = Color.Transparent
         ' 
         ' Label4
         ' 
@@ -314,8 +314,8 @@ Partial Class frmlogin
         Controls.Add(NightControlBox1)
         Controls.Add(Label5)
         Controls.Add(Label4)
-        Controls.Add(loginUserRadioBtn)
-        Controls.Add(loginAdminRadioBtn)
+        Controls.Add(rbUser)
+        Controls.Add(rbAdmin)
         Controls.Add(Guna2PictureBox2)
         Controls.Add(signuptxt)
         Controls.Add(Label2)
@@ -351,8 +351,8 @@ Partial Class frmlogin
     Friend WithEvents Guna2CustomRadioButton2 As Guna.UI2.WinForms.Guna2CustomRadioButton
     Friend WithEvents Label4 As Label
     Friend WithEvents Label5 As Label
-    Friend WithEvents loginAdminRadioBtn As Guna.UI2.WinForms.Guna2CustomRadioButton
-    Friend WithEvents loginUserRadioBtn As Guna.UI2.WinForms.Guna2CustomRadioButton
+    Friend WithEvents rbAdmin As Guna.UI2.WinForms.Guna2CustomRadioButton
+    Friend WithEvents rbUser As Guna.UI2.WinForms.Guna2CustomRadioButton
     Friend WithEvents loginSubmitBtn As Guna.UI2.WinForms.Guna2Button
     Friend WithEvents Guna2Elipse1 As Guna.UI2.WinForms.Guna2Elipse
     Friend WithEvents NightControlBox1 As ReaLTaiizor.Controls.NightControlBox

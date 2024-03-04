@@ -23,17 +23,27 @@ Public Class frmsignup
                 Dim con As New OleDbConnection("Provider=Microsoft.ACE.OLEDB.12.0;Data Source=D:\VB.net Projects\bookseller.accdb")
                 con.Open()
                 If rbAdmin.Checked = True Then
-                    Dim cmd As New OleDbCommand("INSERT INTO userTable(username,email,password,isAdmin) VALUES('" & txtUsernameSignup.Text & "','" & txtEmailSignup.Text & "','" & txtPasswordSignup.Text & "','Yes')", con)
+                    Dim cmd As New OleDbCommand("INSERT INTO userTable([username],[email],[password],[isAdmin]) VALUES('" & txtUsernameSignup.Text & "','" & txtEmailSignup.Text & "','" & txtPasswordSignup.Text & "','Yes')", con)
                     cmd.ExecuteNonQuery()
                     con.Close()
                     MessageBox.Show("Account Created Successfully", "Success", MessageBoxButtons.OK, MessageBoxIcon.Information)
+                    txtUsernameSignup.Clear()
+                    txtEmailSignup.Clear()
+                    txtPasswordSignup.Clear()
+                    txtConpasswordSignup.Clear()
+                    rbAdmin.Checked = False
                     frmlogin.Show()
                     Me.Hide()
                 ElseIf rbUser.Checked = True Then
-                    Dim cmd As New OleDbCommand("INSERT INTO userTable(username,email,password,isAdmin) VALUES('" & txtUsernameSignup.Text & "','" & txtEmailSignup.Text & "','" & txtPasswordSignup.Text & "','No')", con)
+                    Dim cmd As New OleDbCommand("INSERT INTO userTable([username],[email],[password],[isAdmin]) VALUES('" & txtUsernameSignup.Text & "','" & txtEmailSignup.Text & "','" & txtPasswordSignup.Text & "','No')", con)
                     cmd.ExecuteNonQuery()
                     con.Close()
                     MessageBox.Show("Account Created Successfully", "Success", MessageBoxButtons.OK, MessageBoxIcon.Information)
+                    txtUsernameSignup.Clear()
+                    txtEmailSignup.Clear()
+                    txtPasswordSignup.Clear()
+                    txtConpasswordSignup.Clear()
+                    rbUser.Checked = False
                     frmlogin.Show()
                     Me.Hide()
                 Else

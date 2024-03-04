@@ -11,15 +11,36 @@ Public Class frmlogin
         Else
             Dim con As New OleDbConnection("Provider=Microsoft.ACE.OLEDB.12.0;Data Source=D:\VB.net Projects\bookseller.accdb")
             con.Open()
-            Dim cmd As New OleDbCommand("SELECT username,password FROM userTable WHERE username = '" & txtUsernameLogin.Text & "' AND password = '" & txtPasswordLogin.Text & "'", con)
-            Dim dr As OleDbDataReader
-            dr = cmd.ExecuteReader()
-            If dr.HasRows = True Then
-                MessageBox.Show("Login Successful", "Success", MessageBoxButtons.OK, MessageBoxIcon.Information)
-                frmDashboard.Show()
-                Me.Hide()
+            If rbAdmin.Checked = True Then
+                Dim cmd As New OleDbCommand("SELECT username,password FROM userTable WHERE username = '" & txtUsernameLogin.Text & "' AND password = '" & txtPasswordLogin.Text & "' AND isAdmin = 'Yes'", con)
+                Dim dr As OleDbDataReader
+                dr = cmd.ExecuteReader()
+                If dr.HasRows = True Then
+                    MessageBox.Show("Login Successful", "Success", MessageBoxButtons.OK, MessageBoxIcon.Information)
+                    txtPasswordLogin.Clear()
+                    txtUsernameLogin.Clear()
+                    rbAdmin.Checked = False
+                    frmAdminPortal.Show()
+                    Me.Hide()
+                Else
+                    MessageBox.Show("Invalid Username or Password", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error)
+                End If
+            ElseIf rbUser.Checked = True Then
+                Dim cmd As New OleDbCommand("SELECT username,password FROM userTable WHERE username = '" & txtUsernameLogin.Text & "' AND password = '" & txtPasswordLogin.Text & "' AND isAdmin = 'No'", con)
+                Dim dr As OleDbDataReader
+                dr = cmd.ExecuteReader()
+                If dr.HasRows = True Then
+                    MessageBox.Show("Login Successful", "Success", MessageBoxButtons.OK, MessageBoxIcon.Information)
+                    txtPasswordLogin.Clear()
+                    txtUsernameLogin.Clear()
+                    rbUser.Checked = False
+                    frmDashboard.Show()
+                    Me.Hide()
+                Else
+                    MessageBox.Show("Invalid Username or Password", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error)
+                End If
             Else
-                MessageBox.Show("Invalid Username or Password", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error)
+                MessageBox.Show("Please Select User Type", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error)
             End If
         End If
 
